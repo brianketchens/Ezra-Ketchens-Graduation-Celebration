@@ -137,6 +137,48 @@ footer {
     font-size: 1rem;
 }
 
+/* Digital Card Box Styles */
+.gift-section {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background: rgba(255, 85, 0, 0.04); /* Ultra-subtle orange tint background */
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px dashed rgba(255, 85, 0, 0.2);
+}
+
+.gift-text {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.gift-button {
+    display: block;
+    width: 100%;
+    background-color: var(--orange-accent);
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(255, 85, 0, 0.3);
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+/* Hover and active animations for a premium feel */
+.gift-button:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+}
+
+.gift-button:active {
+    transform: translateY(0);
+}
+
 /* Mobile Responsiveness (Phones) */
 @media (max-width: 768px) {
     body {
