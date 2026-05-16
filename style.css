@@ -137,43 +137,27 @@ footer {
     font-size: 1rem;
 }
 
-/* Mobile Styling: Keeping the Side-by-Side Aesthetic */
+/* Mobile Responsiveness (Phones) */
 @media (max-width: 768px) {
     body {
-        padding: 8px;
+        padding: 10px;
     }
     
     .card-container {
-        flex-direction: row; /* Forces them to stay side-by-side */
+        flex-direction: column;
         border-radius: 16px;
-        align-items: stretch;
     }
     
     .photo-sidebar {
-        flex: 0.8; /* Gives the photo a sleeker, narrower column */
-        min-height: auto; /* Lets the height match the text content dynamically */
-        background-position: center center;
+        min-height: 400px;
+        background-position: top center; /* Focuses upward on the portrait */
     }
     
     .details-content {
-        flex: 1.2; /* Gives the text more breathing room */
-        padding: 24px 16px; /* Tighter padding for small screens */
+        padding: 35px 24px;
     }
     
     h1 {
-        font-size: 1.4rem; /* Shrinks the headline so it doesn't break awkwardly */
-        margin-bottom: 20px;
-    }
-    
-    .primary-text {
-        font-size: 1.2rem;
-    }
-    
-    .value {
-        font-size: 1rem;
-    }
-    
-    .sub-value {
-        font-size: 0.85rem;
+        font-size: 2.1rem;
     }
 }
