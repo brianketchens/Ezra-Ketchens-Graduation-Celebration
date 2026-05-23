@@ -42,6 +42,8 @@ body {
     flex: 1.1;
     background: url('ez_grad_pic.jpg') center/cover no-repeat;
     min-height: 550px;
+    padding: 0; /* Removes all padding from this container */
+    overflow: visible; /* Avoid clipping text */
 }
 
 /* Details Section */
