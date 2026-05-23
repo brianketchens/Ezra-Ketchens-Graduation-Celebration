@@ -195,6 +195,7 @@ footer {
     .photo-sidebar {
         min-height: 400px;
         background-position: top center; /* Focuses upward on the portrait */
+        padding: 0; /* Forces 0 padding on the mobile rendering */
     }
     
     .details-content {
